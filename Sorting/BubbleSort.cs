@@ -3,26 +3,26 @@ bubbleSort.BubbleSort(new int[] { 8, 5, 2, 9, 5, 6, 3 });
 
 public partial class Program
 {
+     /*
+             Time-Complexity : Space-Complexity
+       Best :   O(n^2)       :     O(1)
+       Avg  :   O(n^2)       :     O(1)
+       Worst:   O(n^2)       :     O(1)
+    */
     public int[] BubbleSort(int[] array)
     {
-
-        /*
-                 Time-Complexity : Space-Complexity
-           Best :   O(n^2)       :     O(1)
-           Avg  :   O(n^2)       :     O(1)
-           Worst:   O(n^2)       :     O(1)
-         */
-        if (array.Length == 0)
+        int arrLength = array.Length;
+        if (arrLength == 0)
         {
             return Array.Empty<int>();
         }
-        if (array.Length == 1)
+        if (arrLength == 1)
         {
             return array;
         }
-        for (int i = 0; i < array.Length - 1; i++)
+        for (int i = 0; i < arrLength - 1; i++)
         {
-            for (int j = 0; j < array.Length - 1 - i; j++)
+            for (int j = 0; j < arrLength - 1 - i; j++)
             {
                 if (array[j] > array[j + 1])
                 {
@@ -42,20 +42,20 @@ public partial class Program
     }
 
     //2nd Approach
+    /*
+             Time-Complexity : Space-Complexity
+       Best :   O(n)         :     O(1)//In place
+       Avg  :   O(n^2)       :     O(1)
+       Worst:   O(n^2)       :     O(1)
+    */
     public int[] BubbleSortApproach2(int[] array)
     {
-
-        /*
-                 Time-Complexity : Space-Complexity
-           Best :   O(n)         :     O(1)//In place
-           Avg  :   O(n^2)       :     O(1)
-           Worst:   O(n^2)       :     O(1)
-         */
-        if (array.Length == 0)
+        int arrLength = array.Length;
+        if (arrLength == 0)
         {
             return Array.Empty<int>();
         }
-        if (array.Length == 1)
+        if (arrLength == 1)
         {
             return array;
         }
@@ -64,7 +64,7 @@ public partial class Program
         while (!isSorted)
         {
             isSorted = true;
-            for (int j = 0; j < array.Length - 1 - i; j++)
+            for (int j = 0; j < arrLength - 1 - i; j++)
             {
                 if (array[j] > array[j + 1])
                 {
