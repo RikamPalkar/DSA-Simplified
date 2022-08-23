@@ -1,8 +1,3 @@
-﻿Program bubbleSort = new();
-bubbleSort.BubbleSort(new int[] { 8, 5, 2, 9, 5, 6, 3 });
-
-public partial class Program
-{
      /*
              Time-Complexity : Space-Complexity
        Best :   O(n^2)       :     O(1)
@@ -76,4 +71,3 @@ public partial class Program
         }
         return array;
     }
-}
