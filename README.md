@@ -5,5 +5,6 @@ Here you will find implementation of all sorts of data structures and algorithms
 | ----------------|:----------:|:----------:|:----------:|:-------:|
 | Bubble Sort     | O(n)       | O(n^2)     | O(n^2)     | O(1)    |
 | Insertion Sort  | O(n)       | O(n^2)     | O(n^2)     | O(1)    |
+| Selection Sort  | O(n^2)     | O(n^2)     | O(n^2)     | O(1)    |
 | Heap Sort       | O(nLog(n)) | O(nLog(n)) | O(nLog(n)) | O(1)    |
 
