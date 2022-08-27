@@ -2,14 +2,7 @@
 {
     public static int[] SelectionSort(int[] array)
     {
-        if (array.Length == 0)
-        {
-            return Array.Empty<int>();
-        }
-        if (array.Length == 1)
-        {
-            return array;
-        }
+        if (array.Length <= 1) return array;
 
         for (int i = 0; i < array.Length - 1; i++)
         {
