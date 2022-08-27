@@ -1,6 +1,8 @@
 # DSA
 Here you will find implementation of all sorts of data structures and algorithms in C#. I come back and improve my code again and again. Feel free to fork and collaborate.
 
+* Sorting
+
 |                 | Best        | Avg         | Worst       | Space       |
 | ----------------|:-----------:|:-----------:|:-----------:|:-----------:|
 | Bubble Sort     | O(n)        | O(n^2)      | O(n^2)      | O(1)        |
