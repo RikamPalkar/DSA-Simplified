@@ -8,4 +8,4 @@ Here you will find implementation of all sorts of data structures and algorithms
 | Selection Sort  | O(n^2)     | O(n^2)     | O(n^2)     | O(1)       |
 | Quick Sort      | O(nLog(n)) | O(nLog(n)) | O(n^2)     | O(nLog(n)) |
 | Heap Sort       | O(nLog(n)) | O(nLog(n)) | O(nLog(n)) | O(1)       |
-
+| Merge Sort      | O(nLog(n)) | O(nLog(n)) | O(nLog(n)) | O(n)       |
