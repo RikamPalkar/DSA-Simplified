@@ -1,13 +1,15 @@
 ﻿
 public class Program
 {
+     /*
+             Time-Complexity : Space-Complexity
+       Best :   O(nlog(n))   :    O(nlog(n))
+       Avg  :   O(nlog(n))   :    O(nlog(n))
+       Worst:   O(nlog(n))   :    O(nlog(n))
+     */
     public static int[] MergeSort(int[] array)
-    {
-        //Half way when arrays are divided into 1,1
-        if (array.Length <= 1)
-        {
-            return array;
-        }
+    {       
+        if (array.Length <= 1) return array;
 
         int mid = array.Length / 2;
         int[] leftArray = array.Take(mid).ToArray();
@@ -19,39 +21,39 @@ public class Program
     private static int[] SortSplittedArrays(int[] leftArray, int[] rightArray)
     {
         int[] mergedArray = new int[leftArray.Length + rightArray.Length];
-        int leftArrayPointer = 0;
-        int rightArrayPointer = 0;
-        int resultArrayPointer = 0;
+        int l = 0;
+        int r = 0;
+        int k = 0;
 
-        while (leftArrayPointer < leftArray.Length && rightArrayPointer < rightArray.Length)
+        while (l < leftArray.Length && r < rightArray.Length)
         {
-            if (leftArray[leftArrayPointer] < rightArray[rightArrayPointer])
+            if (leftArray[l] < rightArray[r])
             {
-                mergedArray[resultArrayPointer] = leftArray[leftArrayPointer];
-                leftArrayPointer++;
-                resultArrayPointer++;
+                mergedArray[k] = leftArray[l];
+                l++;
+                k++;
             }
             else
             {
-                mergedArray[resultArrayPointer] = rightArray[rightArrayPointer];
-                rightArrayPointer++;
-                resultArrayPointer++;
+                mergedArray[k] = rightArray[r];
+                r++;
+                k++;
             }
         }
         //Left outliers
-        while (leftArrayPointer < leftArray.Length)
+        while (l < leftArray.Length)
         {
-            mergedArray[resultArrayPointer] = leftArray[leftArrayPointer];
-            leftArrayPointer++;
-            resultArrayPointer++;
+            mergedArray[k] = leftArray[l];
+            l++;
+            k++;
         }
 
         //Right outliers
-        while (rightArrayPointer < rightArray.Length)
+        while (r < rightArray.Length)
         {
-            mergedArray[resultArrayPointer] = rightArray[rightArrayPointer];
-            rightArrayPointer++;
-            resultArrayPointer++;
+            mergedArray[k] = rightArray[r];
+            r++;
+            k++;
         }
         return mergedArray;
     }
