@@ -42,7 +42,7 @@ public class Program
                 array[k++] = auxArray[r++];
             }
         }
-
+ 
         //Left outliers
         while (l <= mid)
         {
