@@ -34,7 +34,7 @@ public class Program
         while (l <= mid && r <= end)
         {
             if (auxArray[l] < auxArray[r])
-{
+            {
                 array[k++] = auxArray[l++];
             }
             else
