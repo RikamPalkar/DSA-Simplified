@@ -7,7 +7,7 @@ public class Program
       Avg  :   O(nlog(n))   :      O(n)
       Worst:   O(nlog(n))   :      O(n)
     */
-    public static int[] MergeSort(int[] array)
+    public static int[] MergeSort(int[] array) 
     {
         if (array.Length <= 1) return array;
 
@@ -34,7 +34,7 @@ public class Program
         while (l <= mid && r <= end)
         {
             if (auxArray[l] < auxArray[r])
-            {
+{
                 array[k++] = auxArray[l++];
             }
             else
@@ -42,6 +42,7 @@ public class Program
                 array[k++] = auxArray[r++];
             }
         }
+
         //Left outliers
         while (l <= mid)
         {
