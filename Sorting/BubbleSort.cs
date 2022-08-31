@@ -7,8 +7,7 @@
     public int[] BubbleSort(int[] array)
     {
         int arrLength = array.Length;
-        if (arrLength == 0) return Array.Empty<int>();
-        if (arrLength == 1) return array;
+        if (arrLength <= 1) return array;
          
         for (int i = 0; i < arrLength - 1; i++)
         {
@@ -41,8 +40,7 @@
     public int[] BubbleSortApproach2(int[] array)
     {
         int arrLength = array.Length;
-        if (arrLength == 0) return Array.Empty<int>();
-        if (arrLength == 1) return array;
+        if (arrLength <= 1) return array;
 
         int i = 0;
         bool isSorted = false;

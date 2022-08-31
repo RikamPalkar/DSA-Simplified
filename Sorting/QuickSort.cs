@@ -2,6 +2,8 @@
 {
     public static int[] QuickSort(int[] array)
     {
+        if (array.Length <= 1) return array;
+
         QuickSortRecursion(array, 0, array.Length - 1);
         return array;
     }

@@ -2,6 +2,8 @@
 {
     public static int[] HeapSort(int[] array)
     {
+        if (array.Length <= 1) return array;
+        
         BuildMaxHeap(array);
         for (int i = array.Length - 1; i > 0; i--)
         {

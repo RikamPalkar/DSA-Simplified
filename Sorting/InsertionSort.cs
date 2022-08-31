@@ -6,6 +6,7 @@
     */
     public static int[] InsertionSort(int[] array)
     {
+        if (array.Length <= 1) return array;
         for (int i = 1; i < array.Length; i++)
         {
             int j = i;
