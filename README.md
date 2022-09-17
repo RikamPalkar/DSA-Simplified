@@ -11,7 +11,7 @@ Here you will find implementation of all sorts of data structures and algorithms
 | [Heap Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/HeapSort.cs)       | O(n Log(n)) | O(n Log(n)) | O(n Log(n)) | O(1)        |
 | [Merge Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/MergeSort%20Optimized.cs)      | O(n Log(n)) | O(n Log(n)) | O(n Log(n)) | O(n)        |
 
-## [Trie]
+## Trie
 |                 | Time        | Space       |
 | ----------------|:-----------:|:-----------:|
 | [Build Trie](https://github.com/RikamPalkar/DSA/blob/main/Trie/SuffixTrie.cs)      | O(n^2)      | O(n^2)      |
@@ -22,6 +22,6 @@ Here you will find implementation of all sorts of data structures and algorithms
 * Dijkstra’s Shortest Path Algorithm
  v = vertices, e = edges in graph
 
-  |                 | Time        | Space       |
-  | ----------------|:-----------:|:-----------:|
-  | [Shortest Path](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Dijkstra%20Algorithm/Dijkstra's%20Algorithm.cs)   |O(v^2 + e)   | O(v)        |
+|                 | Time        | Space       |
+| ----------------|:-----------:|:-----------:|
+| [Shortest Path](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Dijkstra%20Algorithm/Dijkstra's%20Algorithm.cs)   |O(v^2 + e)   | O(v)        |
