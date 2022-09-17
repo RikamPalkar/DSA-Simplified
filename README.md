@@ -13,6 +13,7 @@ Here you will find implementation of all sorts of data structures and algorithms
 | Merge Sort      | O(n Log(n)) | O(n Log(n)) | O(n Log(n)) | O(n)        |
 
 * Trie
+
 |                 | Build Trie  | Contains    |
 | ----------------|:-----------:|:-----------:|
 | Time            | O(n^2)      | O(n)        |
