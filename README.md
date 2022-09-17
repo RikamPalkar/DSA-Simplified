@@ -14,7 +14,7 @@ Here you will find implementation of all sorts of data structures and algorithms
 
 * Trie
 
-|                 | Build Trie  | Contains    |
+|                 | Time        |             |
 | ----------------|:-----------:|:-----------:|
-| Time            | O(n^2)      | O(n)        |
-| Space           | O(n^2)      | O(1)        |
+| Build Trie      | O(n^2)      | O(n^2)      |
+| Lookup          | O(n2)       | O(1)        |
