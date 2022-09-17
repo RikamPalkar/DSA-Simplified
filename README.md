@@ -1,8 +1,7 @@
 # DSA
 Here you will find implementation of all sorts of data structures and algorithms in C#. I come back and improve my code again and again. Feel free to fork and collaborate.
 
-* Sorting
-
+## Sorting
 |                 | Best        | Avg         | Worst       | Space       |
 | ----------------|:-----------:|:-----------:|:-----------:|:-----------:|
 | Bubble Sort     | O(n)        | O(n^2)      | O(n^2)      | O(1)        |
@@ -12,9 +11,17 @@ Here you will find implementation of all sorts of data structures and algorithms
 | Heap Sort       | O(n Log(n)) | O(n Log(n)) | O(n Log(n)) | O(1)        |
 | Merge Sort      | O(n Log(n)) | O(n Log(n)) | O(n Log(n)) | O(n)        |
 
-* Trie
-
+## Trie
 |                 | Time        | Space       |
 | ----------------|:-----------:|:-----------:|
 | Build Trie      | O(n^2)      | O(n^2)      |
 | Lookup          | O(n)        | O(1)        |
+
+
+## Graph
+* Dijkstra’s Shortest Path Algorithm
+ v = vertices, e = edges in graph
+
+  |                 | Time        | Space       |
+  | ----------------|:-----------:|:-----------:|
+  | Shortest Path   |O(v^2 + e)   | O(v)        |
