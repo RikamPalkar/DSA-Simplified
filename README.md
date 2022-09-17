@@ -25,3 +25,16 @@ Here you will find implementation of all sorts of data structures and algorithms
 |                 | Time        | Space       |
 | ----------------|:-----------:|:-----------:|
 | [Shortest Path](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Dijkstra%20Algorithm/Dijkstra's%20Algorithm.cs)   |O(v^2 + e)   | O(v)        |
+
+* Graph Traversal Algorithms
+1. DFS with Recursion
+
+|                 | Time        | Space       |
+| ----------------|:-----------:|:-----------:|
+| [DFS](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Graph%20Traversal%20Algorithms/DFS%20Recursion.cs)   |O(v + e)   | O(v)        |
+
+2. DFS with Stack
+
+|                 | Time        | Space       |
+| ----------------|:-----------:|:-----------:|
+| [DFS](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Graph%20Traversal%20Algorithms/DFS%20Stack.cs)   |O(v + e)   | O(v)        |
