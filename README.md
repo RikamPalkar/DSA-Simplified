@@ -11,3 +11,9 @@ Here you will find implementation of all sorts of data structures and algorithms
 | Quick Sort      | O(n Log(n)) | O(n Log(n)) | O(n^2)      | O(n Log(n)) |
 | Heap Sort       | O(n Log(n)) | O(n Log(n)) | O(n Log(n)) | O(1)        |
 | Merge Sort      | O(n Log(n)) | O(n Log(n)) | O(n Log(n)) | O(n)        |
+
+* Trie
+|                 | Build Trie  | Contains    |
+| ----------------|:-----------:|:-----------:|
+| Time            | O(n^2)      | O(n)        |
+| Space           | O(n^2)      | O(1)        |
