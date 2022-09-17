@@ -20,14 +20,14 @@ Here you will find implementation of all sorts of data structures and algorithms
 
 ## Graph ||  v = vertices, e = edges in graph
 ### Graph Traversal Algorithms
-1. DFS
+1. **DFS**: Depth First Search
 
 |                 | Time        | Space       |
 | ----------------|:-----------:|:-----------:|
 | [DFS with Recursion](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Graph%20Traversal%20Algorithms/DFS%20Recursion.cs)   |O(v + e)   | O(v)        |
 | [DFS with Stack](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Graph%20Traversal%20Algorithms/DFS%20Stack.cs)   |O(v + e)   | O(v)        |
 
-2. BFS
+2. **BFS**: Breadth First Search
 
 |                 | Time        | Space       |
 | ----------------|:-----------:|:-----------:|
