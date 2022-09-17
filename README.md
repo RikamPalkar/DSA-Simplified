@@ -18,8 +18,8 @@ Here you will find implementation of all sorts of data structures and algorithms
 | [Lookup](https://github.com/RikamPalkar/DSA/blob/main/Trie/SuffixTrie.cs)          | O(n)        | O(1)        |
 
 
-## Graph
-* Graph Traversal Algorithms
+## Graph ||  v = vertices, e = edges in graph
+### Graph Traversal Algorithms
 1. DFS with Recursion
 
 |                 | Time        | Space       |
@@ -32,8 +32,9 @@ Here you will find implementation of all sorts of data structures and algorithms
 | ----------------|:-----------:|:-----------:|
 | [DFS](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Graph%20Traversal%20Algorithms/DFS%20Stack.cs)   |O(v + e)   | O(v)        |
 
-3. Dijkstra’s Shortest Path Algorithm
- v = vertices, e = edges in graph
+
+### Dijkstra’s Shortest Path Algorithm
+
 
 |                 | Time        | Space       |
 | ----------------|:-----------:|:-----------:|
