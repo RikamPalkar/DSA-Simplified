@@ -20,17 +20,18 @@ Here you will find implementation of all sorts of data structures and algorithms
 
 ## Graph ||  v = vertices, e = edges in graph
 ### Graph Traversal Algorithms
-1. DFS with Recursion
+1. 
 
 |                 | Time        | Space       |
 | ----------------|:-----------:|:-----------:|
-| [DFS](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Graph%20Traversal%20Algorithms/DFS%20Recursion.cs)   |O(v + e)   | O(v)        |
+| [DFS with Recursion](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Graph%20Traversal%20Algorithms/DFS%20Recursion.cs)   |O(v + e)   | O(v)        |
+| [DFS with Stack](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Graph%20Traversal%20Algorithms/DFS%20Stack.cs)   |O(v + e)   | O(v)        |
 
-2. DFS with Stack
+2. 
 
 |                 | Time        | Space       |
 | ----------------|:-----------:|:-----------:|
-| [DFS](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Graph%20Traversal%20Algorithms/DFS%20Stack.cs)   |O(v + e)   | O(v)        |
+|
 
 
 ### Dijkstra’s Shortest Path Algorithm
