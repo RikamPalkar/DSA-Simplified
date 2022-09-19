@@ -16,6 +16,12 @@ Here you will find implementation of all sorts of data structures and algorithms
 | [Build Trie](https://github.com/RikamPalkar/DSA/blob/main/Trie/SuffixTrie.cs)      | O(n^2)      | O(n^2)      |
 | [Lookup](https://github.com/RikamPalkar/DSA/blob/main/Trie/SuffixTrie.cs)          | O(n)        | O(1)        |
 
+## Stack
+|                 | Push        | Pop         |
+| ----------------|:-----------:|:-----------:|
+| [Stack with List](https://github.com/RikamPalkar/DSA/blob/main/Stack/Stack%20with%20list.cs)      | O(1)      | O(1)      |
+| [Stack with Array](https://github.com/RikamPalkar/DSA/blob/main/Stack/Stack%20with%20array.cs)          | O(1)        | O(1)        |
+
 
 ## Graph ||  v = vertices, e = edges in graph
 ### Graph Traversal Algorithms
