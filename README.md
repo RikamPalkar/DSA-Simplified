@@ -22,6 +22,11 @@ Here you will find implementation of all sorts of data structures and algorithms
 | [Stack with List](https://github.com/RikamPalkar/DSA/blob/main/Stack/Stack%20with%20list.cs)      | O(1)      | O(1)      |
 | [Stack with Array](https://github.com/RikamPalkar/DSA/blob/main/Stack/Stack%20with%20array.cs)          | O(1)        | O(1)        |
 
+## Queue
+|                 | Enqueue     | Dequeue     |
+| ----------------|:-----------:|:-----------:|
+| [Queue with List](https://github.com/RikamPalkar/DSA/blob/main/Queue/Queue.cs)      | O(1)      | O(1)      |
+
 
 ## Graph ||  v = vertices, e = edges in graph
 ### Graph Traversal Algorithms
