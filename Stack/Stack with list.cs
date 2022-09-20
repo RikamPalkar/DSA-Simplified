@@ -66,7 +66,7 @@ public class Stack
     public void PrintStack()
     {
         ValidateStack();
-        for (int i = 0; i < Elements.Count; i++)
+        for (int i = Elements.Count-1; i >=0 ; i--)
         {
             Console.Write(Elements[i] + " ");
         }
