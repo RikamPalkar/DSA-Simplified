@@ -1,4 +1,4 @@
-# DSA
+# DSA Simplified
 Here you will find implementation of all sorts of data structures and algorithms in C#. 
 ## Sorting
 |                 | Best        | Avg         | Worst       | Space       |
