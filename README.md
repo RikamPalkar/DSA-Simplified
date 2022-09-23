@@ -47,7 +47,13 @@ Here you will find implementation of all sorts of data structures and algorithms
 
 ### Dijkstra’s Shortest Path Algorithm
 
-
 |                 | Time        | Space       |
 | ----------------|:-----------:|:-----------:|
 | [Shortest Path](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Dijkstra%20Algorithm/Dijkstra's%20Algorithm.cs)   |O(v^2 + e)   | O(v)        |
+
+
+## Heap
+|                 | Build Heap  | 
+| ----------------|:-----------:|:-----------:|
+| [MinHeap Iterative](https://github.com/RikamPalkar/DSA-Simplified/blob/main/Heap/MinHeap.cs)      | O(n log(n))      | 
+| [MaxHeap Recursive](https://github.com/RikamPalkar/DSA-Simplified/blob/main/Heap/MaxHeap.cs)      |  O(n log(n))     | 
