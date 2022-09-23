@@ -54,6 +54,6 @@ Here you will find implementation of all sorts of data structures and algorithms
 
 ## Heap
 |                 | Build Heap  | 
-| ----------------|:-----------:|:-----------:|
+| ----------------|:-----------:|
 | [MinHeap Iterative](https://github.com/RikamPalkar/DSA-Simplified/blob/main/Heap/MinHeap.cs)      | O(n log(n))      | 
 | [MaxHeap Recursive](https://github.com/RikamPalkar/DSA-Simplified/blob/main/Heap/MaxHeap.cs)      |  O(n log(n))     | 
