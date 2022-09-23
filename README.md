@@ -10,8 +10,8 @@ Here you will find implementation of all sorts of data structures and algorithms
 | [Heap Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/HeapSort.cs)       | O(n Log(n)) | O(n Log(n)) | O(n Log(n)) | O(1)        |
 | [Merge Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/MergeSort%20Optimized.cs)      | O(n Log(n)) | O(n Log(n)) | O(n Log(n)) | O(n)        |
 
-## Trie
-|                 | Time        | Space       |
+## Trie : [Example](https://github.com/RikamPalkar/DSA-Simplified/blob/main/Trie/Trie%20example.PNG)
+|  [Trie](https://github.com/RikamPalkar/DSA-Simplified/blob/main/Trie/Trie%20example.PNG)              | Time        | Space       |
 | ----------------|:-----------:|:-----------:|
 | [Build Trie](https://github.com/RikamPalkar/DSA/blob/main/Trie/SuffixTrie.cs)      | O(n^2)      | O(n^2)      |
 | [Lookup](https://github.com/RikamPalkar/DSA/blob/main/Trie/SuffixTrie.cs)          | O(n)        | O(1)        |
