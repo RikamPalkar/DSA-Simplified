@@ -35,7 +35,7 @@ public class MaxHeap
         }
     }
 
-    //Time: O(n log(n)), Space: O(n)
+    //Time: O(n log(n)), Space: O(log(n))
     private void Heapify(int i)
     {
         int max = i;
