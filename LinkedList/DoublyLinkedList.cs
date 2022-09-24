@@ -38,6 +38,8 @@ Console.WriteLine("Removing head! 0");
 linkedList.Remove(linkedList.Head);
 linkedList.PrintLinkedList();
 Console.WriteLine();
+
+
 public class DoublyLinkedList
 {
     public Node Head;
