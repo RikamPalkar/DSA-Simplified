@@ -27,6 +27,11 @@ Here you will find implementation of all sorts of data structures and algorithms
 | ----------------|:-----------:|:-----------:|
 | [Queue with List](https://github.com/RikamPalkar/DSA/blob/main/Queue/Queue.cs)      | O(1)      | O(1)      |
 
+## LinkedList
+|                 | Insert      | Delete      |Lookup      |
+| ----------------|:-----------:|:-----------:|:-----------:|
+| [Doubly Linked List](https://github.com/RikamPalkar/DSA-Simplified/blob/main/LinkedList/DoublyLinkedList.cs)      | O(1)      | O(1)      | O(n)      |
+
 
 ## Graph ||  v = vertices, e = edges in graph
 ### Graph Traversal Algorithms
