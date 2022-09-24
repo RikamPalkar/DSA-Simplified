@@ -34,8 +34,8 @@ Here you will find implementation of all sorts of data structures and algorithms
 
 |                 | Time        | Space       |
 | ----------------|:-----------:|:-----------:|
-| [DFS with Recursion](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Graph%20Traversal%20Algorithms/DFS%20Recursion.cs)   |O(v + e)   | O(v)        |
-| [DFS with Stack](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Graph%20Traversal%20Algorithms/DFS%20Stack.cs)   |O(v + e)   | O(v)        |
+| [DFS with Recursion](https://github.com/RikamPalkar/DSA-Simplified/blob/main/Graphs/Graph%20Traversal%20Algorithms/DFS/DFS%20Recursion.cs)   |O(v + e)   | O(v)        |
+| [DFS with Stack](https://github.com/RikamPalkar/DSA-Simplified/blob/main/Graphs/Graph%20Traversal%20Algorithms/DFS/DFS%20Stack.cs)   |O(v + e)   | O(v)        |
 
 2. **BFS**: Breadth First Search
 
