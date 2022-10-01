@@ -56,6 +56,11 @@ Here you will find implementation of all sorts of data structures and algorithms
 | ----------------|:-----------:|:-----------:|
 | [Shortest Path](https://github.com/RikamPalkar/DSA/blob/main/Graphs/Dijkstra%20Algorithm/Dijkstra's%20Algorithm.cs)   |O(v^2 + e)   | O(v)        |
 
+### Topological Sort
+
+|                 | Time        | Space       |
+| ----------------|:-----------:|:-----------:|
+| [Topological Sort](https://github.com/RikamPalkar/DSA-Simplified/blob/main/Graphs/Topological%20Sort/TopologicalSort.cs)   |O(v + e)   | O(v + e)  |
 
 ## Heap
 |                 | Build Heap  | Insert      |    Remove   | 
