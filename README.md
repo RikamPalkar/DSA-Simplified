@@ -1,14 +1,14 @@
 # DSA Simplified
 Here you will find implementation of all sorts of data structures and algorithms in C#. 
 ## Sorting
-|                 | Best        | Avg         | Worst       | Space       |
-| ----------------|:-----------:|:-----------:|:-----------:|:-----------:|
-| [Bubble Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/BubbleSort.cs)     | O(n)        | O(n^2)      | O(n^2)      | O(1)        |
-| [Insertion Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/InsertionSort.cs)  | O(n)        | O(n^2)      | O(n^2)      | O(1)        |
-| [Selection Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/SelectionSort.cs)  | O(n^2)      | O(n^2)      | O(n^2)      | O(1)        |
-| [Quick Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/QuickSort.cs)      | O(n Log(n)) | O(n Log(n)) | O(n^2)      | O(n Log(n)) |
-| [Heap Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/HeapSort.cs)       | O(n Log(n)) | O(n Log(n)) | O(n Log(n)) | O(1)        |
-| [Merge Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/MergeSort%20Optimized.cs)      | O(n Log(n)) | O(n Log(n)) | O(n Log(n)) | O(n)        |
+|                 | Best        | Avg         | Worst       | Space       | Content     |
+| ----------------|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
+| [Bubble Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/BubbleSort.cs)     | O(n)        | O(n^2)      | O(n^2)      | O(1)        |[Back To Back SWE](https://www.youtube.com/watch?v=euPlXW7dnlI) |
+| [Insertion Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/InsertionSort.cs)  | O(n)        | O(n^2)      | O(n^2)      | O(1)        |[Back To Back SWE](https://www.youtube.com/watch?v=ufIET8dMnus) |  
+| [Selection Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/SelectionSort.cs)  | O(n^2)      | O(n^2)      | O(n^2)      | O(1)        |[Mycodeschool](https://www.youtube.com/watch?v=GUDLRan2DWM) |
+| [Quick Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/QuickSort.cs)      | O(n Log(n)) | O(n Log(n)) | O(n^2)      | O(n Log(n)) |[Back To Back SWE](https://www.youtube.com/watch?v=uXBnyYuwPe8) |  
+| [Heap Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/HeapSort.cs)       | O(n Log(n)) | O(n Log(n)) | O(n Log(n)) | O(1)        |[Back To Back SWE](https://www.youtube.com/watch?v=k72DtCnY4MU&t=1107s) |
+| [Merge Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/MergeSort%20Optimized.cs)      | O(n Log(n)) | O(n Log(n)) | O(n Log(n)) | O(n)        |[Back To Back SWE](https://www.youtube.com/watch?v=GfRQvf7MB3k) |
 
 ## Trie : [Example](https://github.com/RikamPalkar/DSA-Simplified/blob/main/Trie/Trie%20example.PNG)
 |  [Trie](https://github.com/RikamPalkar/DSA-Simplified/blob/main/Trie/Trie%20example.PNG)              | Time        | Space       |
