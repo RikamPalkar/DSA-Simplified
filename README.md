@@ -13,7 +13,7 @@ You can make me your leetcode partner [Rikam!](https://leetcode.com/rikam/)
 [Know Your Complexities!](https://www.bigocheatsheet.com/) 
 
 ## Sorting
-|                 | Best        | Avg         | Worst       | Space       | Content     |
+|     Code        | Best        | Avg         | Worst       | Space       | Learn Here  |
 | ----------------|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
 | [Bubble Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/BubbleSort.cs)     | O(n)        | O(n^2)      | O(n^2)      | O(1)        |[Back To Back SWE](https://www.youtube.com/watch?v=euPlXW7dnlI) |
 | [Insertion Sort](https://github.com/RikamPalkar/DSA/blob/main/Sorting/InsertionSort.cs)  | O(n)        | O(n^2)      | O(n^2)      | O(1)        |[Back To Back SWE](https://www.youtube.com/watch?v=ufIET8dMnus) |  
