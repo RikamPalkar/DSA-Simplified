@@ -1,4 +1,4 @@
-# DSA Simplified - Design by Engineers for Engineers
+# DSA Simplified - Designed by Engineers for Engineers
 This is your One stop shop for all DSA queries! Here you will find implementation of all sorts of data structures and algorithms. 
 
 There are the 2 steps I followed in my DSA journey.
