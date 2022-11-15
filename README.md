@@ -1,7 +1,7 @@
 # DSA Simplified - Designed by Engineers for Engineers
-This is your One stop shop for all DSA queries! Here you will find implementation of all sorts of data structures and algorithms. 
+DSA Simplified is your one-stop shop for all DSA queries! Here you will find implementation of all sorts of data structures and algorithms. 
 
-There are the 2 steps I followed in my DSA journey.
+The whole process consists of follwoing 2 stages.
 1. Implement algorithms by yourself (ask questions, why method runs for O(n) time complexity, why do I need extra space to make it better)
 2. **Problem Solving** - [LeetCode](https://leetcode.com/) is your answer, Initially nothing will make sense, don't worry this is just a start. 
 >Read the question and try to make sense, design your third class solution which won't even pass 5 test cases. Point is it doesn't matter if you don't have a solution
