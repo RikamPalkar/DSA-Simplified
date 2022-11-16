@@ -3,7 +3,7 @@ Goal is not to learn each and every new framework or language out there, the goa
 DSA Simplified is your one-stop shop for all DSA queries! Here you will find implementation of all sorts of data structures and algorithms. 
 
 To get ahead of the curve you need to go through these 3 rules of fight club.
-1. **Learning Curve** - Implement algorithms by yourself
+1. **Learning Curve** - Implement algorithms by yourself.
    - Code out data structures, till concepts are clear, Implement Stack with Push() and Pop() operations which runs on O(1) time complexity.
 2. **Problem Solving** - This is where the real game begins!
    - **The Beginning:** 
