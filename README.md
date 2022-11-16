@@ -3,15 +3,19 @@ Goal is not to learn each and every new framework or language out there, the goa
 DSA Simplified is your one-stop shop for all DSA queries! Here you will find implementation of all sorts of data structures and algorithms. 
 
 To get ahead of the curve you need to go through these 3 rules of fight club.
-1. Learning Curve - Implement algorithms by yourself
+ 1. Learning Curve - Implement algorithms by yourself
    - Code out data structures, till concepts are clear, Implement Stack with Push() and Pop() operations which runs on O(1) time complexity.
 2. **Problem Solving** - This is where the real game begins!
-   - Pick your poison, [LeetCode](https://leetcode.com/), [Hackerrank](https://www.hackerrank.com), [Hackerearth](https://www.hackerearth.com). It's up to you what platform you want to use, I personally use LeetCode.
-   - The Beginning, Initially nothing will make sense, don't worry, this is just a start. 
-   - The Question, Read the question and try to pick hints, slowly you'd learn to recognise patterns just by reading the question.
-   - The Solution, Initially your solution won't even pass 5 test cases. Point is it doesn't matter but the good news is now you are able to think based on the problem. 
-   - Steal the code, Try to solve the problem at least for 30 mins before you jump to the discussion tab, Find best suitable solution and copy paste their entire logic, No one is judging you. 
-   - Debug the code, Debug copied the solution and figured out what the missing puzzle was? Guess what!! Next time when you come across the same pattern you'll know what to do because you've seen this pattern. This is how I learned how to use remainder (%) LOL. That's one pattern, slowly you'd be able to figure out when to use **Trie** or **Union-Find**. Stay consistent and code for good.
+   - **The Beginning:** 
+      - Initially nothing will make sense, don't worry, this is just a start. 
+   - **The Question:**
+      - Read the question and try to pick hints, slowly you'd learn to recognise patterns just by reading the question.
+   - **The Solution:**
+      - Initially your solution won't even pass 5 test cases. Point is it doesn't matter but the good news is now you are able to think based on the problem. 
+   - **Steal the code:**
+      - Try to solve the problem at least for 30 mins before you jump to the discussion tab, Find best suitable solution and copy paste their entire logic, No one is judging you. 
+   - **Debug the code:**
+      - Debug copied the solution and figured out what the missing puzzle was? Guess what!! Next time when you come across the same pattern you'll know what to do because you've seen this pattern. This is how I learned how to use remainder (%) LOL. That's one pattern, slowly you'd be able to figure out when to use **Trie** or **Union-Find**. Stay consistent and code for good.
 3. keep your track record on! Consistency is key my friend. You can master anything if you're consistent enough. 
 
 You can make me your leetcode partner [Rikam!](https://leetcode.com/rikam/)
