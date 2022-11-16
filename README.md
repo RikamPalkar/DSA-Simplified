@@ -1,12 +1,18 @@
 # DSA Simplified - Designed by Engineers for Engineers
+Goal is not to learn each and every new framework or language out there, the goal is to get better at problem solving! PERIOD.
 DSA Simplified is your one-stop shop for all DSA queries! Here you will find implementation of all sorts of data structures and algorithms. 
 
-The whole process consists of follwoing 2 stages.
-1. Implement algorithms by yourself
-- Code out all data structures you want till concepts are clear, Till your basics are clear, Implement Stack operations such as Push and Pop that are supposed to run on O(1) time complexity.
-2. **Problem Solving** - [LeetCode](https://leetcode.com/) is your answer, Initially nothing will make sense, don't worry, this is just a start. 
->Read the question and try to make sense, design your third class solution which won't even pass 5 test cases. Point is it doesn't matter if you don't have a solution
-but now you are able to think based on the problem, this practice will help you to understand patterns. Now go to the solution tab or come here to look for the solution and copy paste entire logic, No one is judging you. What you need to do is debug the solution and figure out what the missing puzzle was. Guess what next time when you come across the same pattern you'll know what to do. This is how I learned how to use remainder (%). That's one pattern, slowly you'd be able to figure out when to use **Trie** or **Union-Find**. Stay consistent and code for good.
+To get ahead of the curve you need to go through these 3 rules of fight club.
+1. Learning Curve - Implement algorithms by yourself
+   - Code out data structures, till concepts are clear, Implement Stack with Push() and Pop() operations which runs on O(1) time complexity.
+2. **Problem Solving** - This is where the real game begins!
+   - Pick your poison, [LeetCode](https://leetcode.com/), [Hackerrank](https://www.hackerrank.com), [Hackerearth](https://www.hackerearth.com). It's up to you what platform you want to use, I personally use LeetCode.
+   - The Beginning, Initially nothing will make sense, don't worry, this is just a start. 
+   - The Question, Read the question and try to pick hints, slowly you'd learn to recognise patterns just by reading the question.
+   - The Solution, Initially your solution won't even pass 5 test cases. Point is it doesn't matter but the good news is now you are able to think based on the problem. 
+   - Steal the code, Try to solve the problem at least for 30 mins before you jump to the discussion tab, Find best suitable solution and copy paste their entire logic, No one is judging you. 
+   - Debug the code, Debug copied the solution and figured out what the missing puzzle was? Guess what!! Next time when you come across the same pattern you'll know what to do because you've seen this pattern. This is how I learned how to use remainder (%) LOL. That's one pattern, slowly you'd be able to figure out when to use **Trie** or **Union-Find**. Stay consistent and code for good.
+3. keep your track record on! Consistency is key my friend. You can master anything if you're consistent enough. 
 
 You can make me your leetcode partner [Rikam!](https://leetcode.com/rikam/)
 
