@@ -2,7 +2,8 @@
 DSA Simplified is your one-stop shop for all DSA queries! Here you will find implementation of all sorts of data structures and algorithms. 
 
 The whole process consists of follwoing 2 stages.
-1. Implement algorithms by yourself (ask questions, such as why method runs for O(n) time complexity, why do I need extra space to make it better)
+1. Implement algorithms by yourself
+- Code out all data structures you want till concepts are clear, Till your basics are clear, Implement Stack operations such as Push and Pop that are supposed to run on O(1) time complexity.
 2. **Problem Solving** - [LeetCode](https://leetcode.com/) is your answer, Initially nothing will make sense, don't worry, this is just a start. 
 >Read the question and try to make sense, design your third class solution which won't even pass 5 test cases. Point is it doesn't matter if you don't have a solution
 but now you are able to think based on the problem, this practice will help you to understand patterns. Now go to the solution tab or come here to look for the solution and copy paste entire logic, No one is judging you. What you need to do is debug the solution and figure out what the missing puzzle was. Guess what next time when you come across the same pattern you'll know what to do. This is how I learned how to use remainder (%). That's one pattern, slowly you'd be able to figure out when to use **Trie** or **Union-Find**. Stay consistent and code for good.
