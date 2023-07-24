@@ -90,3 +90,8 @@ You can make me your leetcode partner [Rikam!](https://leetcode.com/rikam/)
 | ----------------|:-----------:|:-----------:|:-----------:|
 | [MinHeap Iterative](https://github.com/RikamPalkar/DSA-Simplified/blob/main/Heap/MinHeap.cs)      | O(n Log(n))      | O(Log(n))      | O(Log(n))     |
 | [MaxHeap Recursive](https://github.com/RikamPalkar/DSA-Simplified/blob/main/Heap/MaxHeap.cs)      | O(n Log(n))      | O(Log(n))      | O(Log(n))     |
+
+## LeetCode
+|   Leetcode Question     | Solution  | Time Complexity     |    Space Complexity |    Data Structure  | 
+| ----------------|:-----------:|:-----------:|:-----------:|:-----------:|
+| [1. Two Sum](https://leetcode.com/problems/two-sum/)  |  [Two Sum](https://github.com/RikamPalkar/DSA-Simplified/blob/main/LeetCode/1.TwoSums.cs)      | O(n)      | O(n)      |  Array |  
