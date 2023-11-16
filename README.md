@@ -1,4 +1,4 @@
-# DSA Simplified - Designed by Engineers for Engineers
+# DSA Simplified - Designed by Engineers for Engineers, [YouTube Channel](https://www.youtube.com/@rikampalkar)
 Goal is not to learn each and every new framework or language out there, the goal is to get better at problem solving! PERIOD.
 DSA Simplified is your one-stop shop for all DSA queries! Here you will find implementation of all sorts of data structures and algorithms. 
 
