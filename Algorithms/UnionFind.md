@@ -17,19 +17,16 @@ The example we're dissecting today is this: given 6 vertices (0, 1, 2, 3, 4, 5) 
 So, we've got 6 vertices in total: 0, 1, 2, 3, 4, 5.
 
 6 vertices <br>
-https://www.c-sharpcorner.com/article/the-union-find-algorithm/Images/1.png![image](https://github.com/RikamPalkar/DSA-Simplified/assets/36474843/a61e0630-b028-489f-bd38-afcb3a059fe0)
-
+[image](https://github.com/RikamPalkar/DSA-Simplified/assets/36474843/a61e0630-b028-489f-bd38-afcb3a059fe0)
 Image 1: 6 vertices
 
 And we also have edges = [0,1] [0,2] [3,5] [3,4] [5,4], which makes our final graph look like this:
 
 The final graph <br>
 https://www.c-sharpcorner.com/article/the-union-find-algorithm/Images/2.png![image](https://github.com/RikamPalkar/DSA-Simplified/assets/36474843/7a8d76fb-70d3-40b9-8096-c84910d2240d)
-
 Image 2: The final graph
 
 That's good for visual understanding, but how do we <code> it out to make it actually work right?
-
 # Class UnionFind
 Let's start by simply creating a UnionFind Class with a parent[ ] array. Now, the index of the parent array represents the vertices (0,1,2,3,4,5), and the value of the array represents the parent each vertex belongs to.
 ```
@@ -58,10 +55,9 @@ Now your set, or should I call them {sets}, looks like this:
 
 Each vertex belongs in a separate set <br>
 https://www.c-sharpcorner.com/article/the-union-find-algorithm/Images/3.png![image](https://github.com/RikamPalkar/DSA-Simplified/assets/36474843/696dfb3e-126f-4560-bc27-1a8951306057)
-
 Image 3: Each vertex belongs to a separate set
 
-The Find Operation
+# The Find Operation
 To demonstrate the workings of the Find operation, let's consider the following example. It is in different color blue than other images because this is not same as our original example.
 
 Alternate example to explain the workings of the find operation<br>
