@@ -1,0 +1,103 @@
+//Solution 1: Iterative
+//Time: O(log⁡10(n)), Space: O(1)
+
+class Solution
+{
+      public string NumberToWords(int num) 
+      {
+          if (num == 0) return "Zero";
+
+          string[] ones =  { "", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine" };
+          string[] teens = { "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", 
+                             "Sixteen", "Seventeen", "Eighteen", "Nineteen" };
+          string[] tens =  { "", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", 
+                                    "Seventy", "Eighty", "Ninety" };
+
+          string words = "";
+          int count = 0;
+
+          while (num > 0) 
+          {
+              if (num % 1000 != 0) 
+              {
+                  string segmentWords = ConvertSegmentToWords(num % 1000, ones, teens, tens);
+                  if (!string.IsNullOrEmpty(segmentWords)) 
+                  {
+                      words = segmentWords + GetMagnitude(count) + " " + words;
+                  }
+              }
+              num /= 1000;
+              count++;
+          }
+
+          retun words.Trim();
+      }
+
+      private string ConvertSegmentToWords(int num, string[] ones, string[] teens, string[] tens) 
+      {
+          if (num == 0) return "";
+
+          string words = "";
+
+          if (num >= 100) {
+              words += ones[num / 100] + " Hundred ";
+              num %= 100;
+          }
+
+          if (num >= 20) {
+              words += tens[num / 10] + " ";
+              num %= 10;
+          }
+
+          if (num > 0 && num < 10) {
+              words += ones[num] + " ";
+          }
+          else if (num >= 10 && num <= 19) {
+              words += teens[num - 10] + " ";
+          }
+
+          return words.Trim();
+      }
+
+      private string GetMagnitude(int count) 
+      {
+          return count switch
+          {
+              1 => " Thousand",
+              2 => " Million",
+              3 => " Billion",
+              _ => ""
+          };
+      }
+}
+
+/****************************************************************************************************************************************************/
+//Solution 2: Recursive
+// Time: O(log10​(n)), Space: O(log10​(n))
+
+class Solution {
+    private readonly string[] _tens = {"", "Ten", "Twenty", "Thirty", "Forty", "Fifty", 
+                                       "Sixty", "Seventy", "Eighty", "Ninety"};
+    private readonly string[] _ones = {"", "One", "Two", "Three", "Four", "Five", 
+                                       "Six", "Seven", "Eight", "Nine", "Ten", 
+                                       "Eleven", "Twelve", "Thirteen", "Fourteen", 
+                                       "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
+
+    public string NumberToWords(int num) {
+        if (num == 0)
+            return "Zero";
+
+        return Helper(num).Trim();
+    }
+    
+    private string Helper(int num) {
+        
+        if (num >= 1000000000) return (Helper(num / 1000000000) + " Billion " + Helper(num % 1000000000));
+        if (num >= 1000000) return (Helper(num / 1000000) + " Million " + Helper(num % 1000000));
+        if (num >= 1000) return (Helper(num / 1000) + " Thousand " + Helper(num % 1000));
+        if (num >= 100) return (Helper(num / 100) + " Hundred " + Helper((num % 100))).Trim();
+        if (num >= 20) return (_tens[num / 10] + " " + Helper(num % 10)).Trim();
+        return _ones[num];
+    }
+}
+
