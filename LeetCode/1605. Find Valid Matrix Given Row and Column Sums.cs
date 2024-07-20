@@ -21,15 +21,6 @@
     }
 /**
 
-          8	6	8
-      5	  5	0 0 
-      7	  3	4	0
-      10	0	2	8
-
-
-  Sure! Here’s a shorter version:
-
-
 
 1. Create an empty matrix of the right size.
 
