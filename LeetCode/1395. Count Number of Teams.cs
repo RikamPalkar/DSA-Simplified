@@ -48,10 +48,36 @@ Algorithm
 Complexity
 
     Time complexity: O(n^2)
-
     Space complexity: O(1)
 
-Code
+Here’s the simplified breakdown for the example `rating = [2, 5, 3, 4, 1]`:
+
+1. Middle `2`:
+   - Before: None
+   - After: `[5, 3, 4, 1]` → 3 less, 1 more
+   - Teams: 0 × 1 + 0 × 3 = 0
+
+2. Middle `5`:
+   - Before: `[2]` → 1 less
+   - After: `[3, 4, 1]` → 2 less, 1 more
+   - Teams: 1 × 1 + 0 × 2 = 1
+
+3. Middle `3`:
+   - Before: `[2, 5]` → 1 less, 1 more
+   - After: `[4, 1]` → 1 less, 1 more
+   - Teams: 1 × 1 + 1 × 1 = 2
+
+4. Middle `4`:
+   - Before: `[2, 5, 3]` → 2 less, 1 more
+   - After: `[1]` → 1 less
+   - Teams: 2 × 0 + 1 × 1 = 1
+
+5. Middle `1`:
+   - Before: `[2, 5, 3, 4]` → 0 less, 4 more
+   - After: None
+   - Teams: 0 × 0 + 4 × 0 = 0
+
+Total Teams: 0 + 1 + 2 + 1 + 0 = 4
 */
 public class Solution {
     public int NumTeams(int[] rating) 
