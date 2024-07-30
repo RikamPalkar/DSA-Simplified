@@ -1,4 +1,4 @@
-//Time: O(n), Space: O(n)
+// Solution 1: Time: O(n), Space: O(n)
   public int MinimumDeletions(string s) 
     {
         Stack<char> stack = new();
@@ -16,7 +16,6 @@
         
         return count;
     }
-
 /*
 Algorithm
 
@@ -45,4 +44,25 @@ Let's take the string "aababbab" as an example:
         'b': Push 'b' onto the stack. Stack: ['b', 'b']
 
     The total count is 2, which means we need to delete 2 'b' characters to make the string balanced.
-/*
+*/
+
+/* Solution 2
+Improvised to  Time: O(n), Space: O(1)
+*/
+    public int MinimumDeletions(string s) 
+    {
+        int bCount = 0;
+        int count = 0;
+        
+        foreach (char c in s) 
+        {
+            if (c == 'b') bCount++;
+            else if (bCount > 0)
+            {
+                bCount--;
+                count++;
+            }
+        }
+        
+        return count;
+    }
