@@ -13,12 +13,11 @@
             int square =  num;
             while(set.Contains(square))
             {
-                if(num > 100000) break;
                 currStreak++;
-                if (square > 100000) break;       
+                square = (int)Math.Pow(square, 2);     
             }
-            maxStreak = Math.Max(maxStreak, currStreak);
+            maxStreak = Math.Max(maxStreak, 
+                      currStreak);
         }
-        
         return maxStreak == 1 ? -1 : maxStreak;
     }
